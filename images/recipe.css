@@ -1,0 +1,58 @@
+
+body{
+    background-color: bisque;
+    min-height: 100vh;
+}
+
+li{
+    padding:10px;
+}
+
+#main{
+    background-color: aliceblue;
+    margin: 25%;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.image img{
+    display: inline-block;
+    border-radius: 5px;
+    width:100%;
+    height:auto;
+    min-width: 100px;
+}
+
+.border{
+    background-color:#ff00e618;
+    border-radius: 6px;
+    font-size: small;
+    padding:10px;
+}
+
+.border h2{
+    font-family:monospace;
+}
+
+.border li{
+    padding-bottom: 5px;
+}
+
+.ingredient{
+    border-bottom: 1px solid #333;
+}
+
+.instruction{
+    border-bottom: 1px solid #333;
+}
+
+.line{
+    border-bottom: 1px solid #333;
+    padding-bottom: 5px;
+}
+
+.bold{
+    font-weight:bolder;
+    font-family: monospace;
+    color: rgb(172, 120, 23);
+}
